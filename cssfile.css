@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #FFFFFF;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.logo-container {
+    /* width: 40%;*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.logo-container img {
+    border: 8px solid #146476;
+    height: 100px;
+    /*width:20%;*/
+}
+
+.proj-name {
+    font-size: 2rem;
+    font-family: 'Vollkorn', serif;
+    font-weight: 500;
+    /*width: 68%;*/
+    margin-bottom: 15px;
+    color: #50888d;
+    text-align: start;
+    margin-left: 1rem;
+}
+
+nav ul {
+    margin-top: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0rem 1.5rem;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 0;
+    padding: 5px;
+
+}
+
+nav ul li:hover {
+    background-color: #136576;
+    padding: 5px;
+    margin: 0 1.5rem;
+    
+}
+nav ul li:hover a {
+    color:#FFFFFF;
+}
+
+nav ul li a {
+    color: rgb(47, 2, 99);
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-height: 31rem;
+    position: relative;
+
+}
+
+.box {
+    position: absolute;
+}
+
+.section1 {
+    background-color: #F5F5F5;
+    width: 89%;
+    height: 15.5rem;
+    right: 0;
+}
+
+.section2 {
+    background-color: #F8DB00;
+    height: 32rem;
+    width: 92%;
+    top: 8.3rem;
+}
+
+.section3 {
+    background-color: #FFFFFF;
+    height: 25rem;
+    width: 40%;
+    top: 15.3rem;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 6rem 0 3.5rem;
+
+
+}
+
+.section3 h1 {
+    font-size: 3vw;
+    color: #136576;
+    word-spacing: 8px;
+
+}
+
+.section3 p {
+    font-size: 1.1vw;
+    word-spacing: 9px;
+    margin-top: 1.5rem;
+    line-height: 32px;
+}
+
+.myicon {
+    color: blueviolet;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+#icondiv {
+    display: none;
+    cursor: pointer;
+}
+
+@media all and (max-width:1280px) {
+    nav {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+
+        padding: 20px 0;
+        display: block;
+        margin: 0;
+
+
+
+    }
+
+    nav ul li:hover {
+        background-color: #136576;
+        margin: 0;
+        padding: 20px 0;
+
+
+    }
+
+    nav ul {
+        text-align: center;
+        display: none;
+        width: 100%;
+    }
+
+    .box {
+        display: block;
+        width: 100%;
+
+    }
+
+    .section2 {
+        height: 200px;
+        z-index: 5;
+    }
+
+    .section3 {
+        margin-top: 88px;
+        padding: 30px;
+        height: 150px;
+    }
+
+    .box h1 {
+        font-size: 3vw;
+        word-spacing: 0;
+    }
+
+    .section3 p {
+        font-size: 2vw;
+        word-spacing: 4px;
+        margin-top: 0.5px;
+    }
+
+    .logo-container {
+        /*width:100%;
+        height:100px;
+        text-align: center;
+        align-items: center;*/
+        align-self: flex-start;
+        width: 80%;
+        margin: 0;
+        justify-content: flex-start;
+    }
+
+    .proj-name {
+        /*font-size: 1.2rem;
+        text-align: center;
+        align-items: center;
+        margin: 0;*/
+        align-self: center;
+        margin: 0 0 0 15px;
+        padding: 0;
+        text-align: start;
+
+
+    }
+
+    #icondiv {
+        display: block;
+        position: absolute;
+        right: 25px;
+
+    }
+
+    .showmenulist {
+        display: block;
+    }
+
+    .section3 {
+        height: 150px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width:525px) {
+    .proj-name {
+        font-size: 1.5rem;
+    }
+
+    .logo-container img {
+        width: 20%;
+        height: 4rem;
+    }
+
+    #icondiv {
+        top: -14px;
+    }
+
+    .myicon {
+        font-size: 24px;
+    }
+
+}
+
+@media all and (max-width:430px) {
+    .proj-name {
+        font-size: 1.2rem;
+    }
+    .section3 p {
+        line-height: 12px;
+    }
+}
+
+@media all and (max-width:318px) {
+    .logo-container img {
+        width: 18vw;
+        height: 8vh;
+    }
+
+    .proj-name {
+        font-size: 0.8rem;
+    }
+
+    .myicon {
+        font-size: 1rem;
+    }
+
+
+}

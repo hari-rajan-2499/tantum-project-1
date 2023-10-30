@@ -12,4 +12,4 @@ Developed a responsive website with a clean and intuitive navigation bar. Implem
 
 
 # Mobile view with navbar
-![Mobile view output image with navbar](https://github.com/hari-rajan-2499/tantum-project-1/assets/122504506/1acb182f-e0ac-40c5-81d0-4a17489e9bd1)
+![Web capture_30-10-2023_14380_hari-rajan-2499 github io](https://github.com/hari-rajan-2499/tantum-project-1/assets/122504506/ebf70ecf-cd73-45df-87c9-7224b95ef7d4)

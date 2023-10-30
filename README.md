@@ -3,8 +3,7 @@ Developed a responsive website with a clean and intuitive navigation bar. Implem
 
 # Output
 # Desktop view
-![Desktop view output image](https://github.com/hari-rajan-2499/tantum-project-1/assets/122504506/b1e7e548-33c1-4dcc-b841-b0b27dca7aa2)
-
+![Desktop view output image](https://github.com/hari-rajan-2499/tantum-project-1/assets/122504506/ca581874-1e8c-4086-944f-41d298d46b1a)
 
 # Mobile view
 ![Mobile view output image](https://github.com/hari-rajan-2499/tantum-project-1/assets/122504506/b05aad4d-caea-4496-abca-4eac701e0a71)
